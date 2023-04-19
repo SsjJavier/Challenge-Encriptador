@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: #040706;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.cabecera{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera img{
+    width: 170px;
+    margin-left: 70px;
+}
+
+.principal{
+    width: 100%;
+    height: calc(100vh - 180px);
+}
+
+.textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-input{
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.texto-input .ingrese-texto{
+    padding: 15px 150px 15px 20px;
+    border-radius: 20px;
+    font-size: 17pt;
+    border: none;
+}
+
+.botones p{
+    font-size: 17pt;
+}
+
+.botones button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+
+.texto-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: calc(100vh - 180px) ;
+    resize: none;
+}
+
+.texto-area textarea{
+    padding:15px;
+    max-height: 900px;
+    font-size: 20pt;
+    background-color: #040706;
+    color: white;
+    display: none;
+    resize: none;
+}
+
+.texto-area #temp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.texto-area img{
+    width: 200px;
+}

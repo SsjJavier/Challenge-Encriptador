@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Encriptador - ALURA</title>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+        <img src="/IMG/jr.webp" alt="">
+        <h1 class="Titulo"> Encriptador JR</h1>
+        </div>
+    </header>
+    <main class="principal">
+    <div class="textos">
+    <div class="texto-input">
+    <input type="text" class="ingrese-texto" id="texto" placeholder="Ingrese el texto aqui">
+    <div class="botones">
+        <div class="botones-texto">
+        <p>Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="encriptar">
+        <button class="boton-encriptar" onclick="btnEncriptar(), mostrar()">Encriptar</button>
+        <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+        </div>
+</div> 
+    <div class="texto-area">
+    <textarea name="" id="encriptado" cols="30" rows="15"></textarea>
+    <div  id="temp">
+    <img class="temporal-imagen" src="/IMG/jr.webp" alt="" >
+    <div class="temporal-texto">
+    <h3>Ningun mensaje fue encontrado</h3>
+    <p>Ingresa el mensaje que deseas encriptar o desencriptar </p>
+</div>
+</div>
+    <button style="display: none;">Copiar</button>
+
+    </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/JAVASCRIPT/javascript.js"></script>
+</body>
+</html>
